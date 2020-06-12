@@ -1,0 +1,13 @@
+{
+  "name": "code-signal-javascript",
+  "version": "1.0.0",
+  "description": "code-signal-javascript",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Baur Urazalinov",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^7.1.1"
+  }
+}
