@@ -8,4 +8,6 @@ function add(param1, param2) {
         }
     }
     return 0;
-}
+};
+
+exports.add = add;
