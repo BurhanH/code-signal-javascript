@@ -22,4 +22,11 @@ describe("Add function test suite", function () {
             assert(add(-1000, -999) === -1999);
         });
     });
+    describe("Negative tests", function () {
+        it("add 'a' and 5", function () {
+            assert(add('a', 5) === 0);
+        });
+        it("call add function with no parameters", function () {
+            assert(add() === 0);
+        });
 });
