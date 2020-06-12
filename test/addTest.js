@@ -29,5 +29,11 @@ describe("Add function test suite", function () {
         it("call add function with no parameters", function () {
             assert(add() === 0);
         });
+        it("add 1001 and 67", function () {
+            assert(add() === 0);
+        });
+        it("add -4 and -2346", function () {
+            assert(add() === 0);
+        });
     });
 });
