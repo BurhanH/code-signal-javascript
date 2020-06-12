@@ -1,7 +1,7 @@
 const { centuryFromYear } = require("../source/centuryFromYear.js");
 const assert = require("assert");
 
-describe("Get century from year function test suite", function () {
+describe("Century from year function test suite", function () {
     describe("Positive tests", function () {
         it("1988 year", function () {
             assert(centuryFromYear(1988) === 20);
