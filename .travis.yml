@@ -3,11 +3,14 @@ dist: bionic
 
 language: node_js
 node_js:
-  - "stable"
+    - "stable"
 
 cache:
   directories:
-  - node_modules
+    - node_modules
 
+install:
+    - npm install
+   
 script:
-  - npm test
+    - npm test
