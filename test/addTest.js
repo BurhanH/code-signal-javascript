@@ -29,4 +29,5 @@ describe("Add function test suite", function () {
         it("call add function with no parameters", function () {
             assert(add() === 0);
         });
+    });
 });
