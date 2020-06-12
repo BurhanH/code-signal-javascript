@@ -20,7 +20,7 @@ describe("Century from year function test suite", function () {
         it("'abcd' input", function () {
             assert(centuryFromYear('abcd') === 0);
         });
-        it("call centuryFromYear function with no parameters", function () {
+        it("call centuryFromYear function without parameters", function () {
             assert(centuryFromYear() === 0);
         });
         it("0 year", function () {
