@@ -1,4 +1,4 @@
-const {add} = require("../source/add.js");
+const { add } = require("../source/add.js");
 const assert = require("assert");
 
 describe("Add function test suite", function () {
